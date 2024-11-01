@@ -1,0 +1,81 @@
+#jeu
+{
+    width: 420px;
+    height: 540px;
+    padding: 25px;
+    background-color: #3d85c7;
+    box-shadow: 0px 6px 6px #444444;
+    cursor: default;
+}
+
+#chrono,
+#mot,
+#score
+{
+    width: 400px;
+    height: 30px;
+    margin: 0 auto 10px auto;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+}
+
+#mot
+{
+    background-color: #ffb200;
+    text-shadow: 0 1px #444444;
+    box-shadow: 0px 6px 6px #444444;
+}
+
+#plateau
+{
+	margin: auto;
+    width: 400px;
+    height: 400px;
+}
+
+.selected
+{
+	opacity: 0.7;
+}
+
+._case
+{
+	width: 25%;
+	height: 25%;
+	display: inline-block;
+	
+    background-image: url("./whiteColor.png");
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+
+	font-size: 40px;
+    font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+    line-height: 100px;
+}
+
+
+
+#jeu,
+#mot,
+#plateau,
+#score,
+._case
+{
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+audio
+{
+    display: none;
+}
